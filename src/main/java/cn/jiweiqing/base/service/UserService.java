@@ -7,4 +7,6 @@ import cn.jiweiqing.base.bean.UserBean;
  */
 public interface UserService {
     UserBean loginIn(String username, String password);
+
+    UserBean getInfoByUserName(String username);
 }

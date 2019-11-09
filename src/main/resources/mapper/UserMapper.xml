@@ -5,4 +5,8 @@
         SELECT * FROM user WHERE username = #{username} AND password = #{password}
     </select>
 
+    <select id="getInfoByUserName" parameterType="string" resultType="cn.jiweiqing.base.bean.UserBean">
+        SELECT * FROM user WHERE username = #{username}
+    </select>
+
 </mapper>

@@ -7,4 +7,5 @@ import cn.jiweiqing.base.bean.UserBean;
  */
 public interface UserMapper {
     UserBean getInfo(String username, String password);
+    UserBean getInfoByUserName(String username);
 }
